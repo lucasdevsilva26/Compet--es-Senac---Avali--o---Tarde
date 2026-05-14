@@ -17,10 +17,10 @@ return (
 
             <form>
                 <div><label htmlFor="">Email</label>
-                <input type="email" name="" id="" /></div>
+                <input type="email" name="" id="" placeholder="seu@email.com"/></div>
 
                 <div><label htmlFor="">Senha</label>
-                <input type="passwor" name="" id="" /></div>
+                <input type="password" name="" id="" placeholder="sua senha"/></div>
 
                 <button><div></div>Entrar</button>
 

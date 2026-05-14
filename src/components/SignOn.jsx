@@ -17,13 +17,16 @@ return (
 
             <form>
                 <div><label htmlFor="">Seu nome completo</label>
-                <input type="text" name="" id="" />
+                <input type="text" name="" id="" placeholder="Ex: Maria da Silva"/>
                 <span>Como prefere ser chamado(a)?</span></div>
 
-                <div><label htmlFor="">Senha</label>
-                <input type="passwor" name="" id="" /></div>
+                <div><label htmlFor="">Email</label>
+                <input type="email" name="" id="" placeholder="seu@email.com"/></div>
 
-                <button><div></div>Entrar</button>
+                <div><label htmlFor="">Criar uma senha</label>
+                <input type="password" name="" id="" placeholder="Mínimo de 6 caracteres"/></div>
+
+                <button><div></div>Criar minha conta</button>
 
                 <div>
                 <span>Ainda não tem uma conta?</span> <a onClick={() => navigate('/signon')}>Criar conta</a>

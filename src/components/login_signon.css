@@ -22,6 +22,7 @@
   justify-content: center;
   gap: 1rem;
 
+  width: auto;
   padding: 1rem;
   border-radius: 1rem;
 
@@ -33,11 +34,19 @@
 .login_signonMains section form {
   display: flex;
   flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
   gap: 1rem;
+}
+.login_signonMains section form div {
+    display: flex;
+    flex-direction: column;
 }
 .login_signonMains section form input {
   width: 100%;
-  padding: 0.125rem;
+  padding: .25rem;
 
   border-radius: 1rem;
   border: 0.125rem solid #cddbe4;
@@ -47,10 +56,13 @@
 
   outline: none;
 }
+
 .login_signonMains section form button {
   background: linear-gradient(20deg, #1b78bb, #25a5d0);
 
   border: none;
+
+  width: 100%;
 
   color: white;
   padding: 0.5rem;
