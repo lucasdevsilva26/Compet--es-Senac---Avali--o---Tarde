@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 4rem;
+
+  background-color: #f8fbfcf2;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+#footerIcon {
+  background-image: url("../assets/footer/Icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 1rem;
+  height: 1rem;
+}
