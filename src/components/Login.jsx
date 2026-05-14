@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router";
 import Footer from "./Footer"
 import Header from "./Header"
 
 function Login() {
+const navigate = useNavigate();
 
 return (
     <>
@@ -23,7 +25,7 @@ return (
                 <button><div></div>Entrar</button>
 
                 <div>
-                <span>Ainda não tem uma conta?</span> <a>Criar conta</a>
+                <span>Ainda não tem uma conta?</span> <a onClick={() => navigate('/signon')}>Criar conta</a>
                 </div>
             </form>
         </section>

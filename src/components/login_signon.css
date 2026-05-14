@@ -7,8 +7,13 @@
   background-color: #e8f4fc;
 }
 
-#loginLogo{
-    
+#loginLogo {
+  background-image: url("../assets/login/Icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 5rem;
+  height: 5rem;
 }
 .login_signonMains section {
   display: flex;
@@ -48,9 +53,9 @@
   border: none;
 
   color: white;
-  padding: .5rem;
+  padding: 0.5rem;
 
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 
   font-weight: bold;
 }
